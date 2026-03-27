@@ -18,7 +18,9 @@ void fib(int n){
     while (nums.size() < n){
         nums.push_back(nums[nums.size() - 2] + nums[nums.size() - 1]);
     }
-    cout << nums.back();
+    for (int i : nums){
+        cout << i << endl;
+    }
 }
 
 int main(){
