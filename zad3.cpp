@@ -4,7 +4,7 @@
 using namespace std;
 
 void fib(int n){
-    int first = 1;
+    int first = 0;
     int second = 1;
     vector <int> nums;
     nums.push_back(first);
